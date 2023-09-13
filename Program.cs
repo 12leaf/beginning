@@ -59,6 +59,12 @@
             float ergebnis15 = zahl5 / zahl6;
             Console.WriteLine(ergebnis15);
 
+            float ergebnis16 = ++ zahl5;
+            Console.WriteLine(ergebnis16);
+
+            float ergebnis17 = ++ zahl6;
+            Console.WriteLine(ergebnis17);
+
             
 
 
