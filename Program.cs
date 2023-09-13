@@ -7,23 +7,21 @@ namespace HelloWorld
         static void Main(string[] args)
         {
 
-        List<int> myNumberList = new List<int>();
-        int user_zahl=0;
-        do
+        
+        Console.WriteLine("Bis zu welcher Zahl soll aufsummiert werden?");
+        int untilNumber = Convert.ToInt32(Console.ReadLine());
+        
+        int ergebnis= 0;
+        for(int i=0; i<=untilNumber; i++)
         {
-            //code block
-            Console.WriteLine("Gebe mir eine Zahl");
-            int user_zahl = Convert.ToInt32(Console.ReadLine());
-            myNumberList.Add(user_zahl);
+            ergebnis+=i;
+            Console.WriteLine($"Added numer{i}, current result {ergebnis}");
         }
-        while(user_zahl>0);
-                  //Summiere alle Zahlen auf
-          int ergebnis = 0;
-        foreach(int zahl in myNumberList)
-         {
-         ergebnis+= zahl;
-             }
-        Console.WriteLine($"Das ergebnis ist {ergebnis}");
+       
+
+
+
+
         }
     }
 }
