@@ -4,17 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Gebe mir deinen Namen!");
-            string name = Console.ReadLine();
+            Console.WriteLine("Gebe mir eine erste Zahl!");
+            int zahl1 = Convert.ToInt16(Console.ReadLine());
 
-            Console.WriteLine("Sage mir wie alt du bist");
-            string age = Console.ReadLine();
+            Console.WriteLine("Gebe mir eine zweite Zahl!");
+            int zahl2 = Convert.ToInt16(Console.ReadLine());
 
-            int alter = Convert.ToInt16(age);
+            int ergebnis = zahl1 + zahl2;
 
-            int alterInZehn = alter +10;
-
-            Console.WriteLine($"Hello, {name} Dein Alter ist {age} in 10 Jahren bist du {alterInZehn}" );
+            
+            Console.WriteLine($"Das Ergebnis aus {zahl1} und {zahl2} ist {ergebnis}" );
         }
     }
 }
