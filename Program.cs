@@ -4,15 +4,25 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Gib eine erste Zahl an!");
-            int zahl1 = Convert.ToInt16(Console.ReadLine());
-
-            Console.WriteLine("Gib eine zweite Zahl an!");
-            int zahl2 = Convert.ToInt16(Console.ReadLine());
-
-            int ergebnis = zahl1 - zahl2;
-
-            Console.WriteLine($"Das Ergebnis aus {zahl1} und {zahl2} ist {ergebnis}");
+            string text="Das ist ein test";
+            Console.WriteLine(text);
+            double kommazahl=2.1;
+            Console.WriteLine(kommazahl);
+            float flieskomma=26.3F;
+            Console.WriteLine(flieskomma);
+            decimal fliesskomma=26.5M;
+            Console.WriteLine(fliesskomma);
+            bool wert=true;
+            Console.WriteLine(wert);
+            bool wert2=false;
+            Console.WriteLine(wert2);
+            char buchstabe =(char)7;
+            Console.WriteLine(buchstabe);
+            long zahl=1729371829;
+            Console.WriteLine(zahl);
+            uint zahl2=5678;
+            Console.WriteLine(zahl2);
+            
 
         }
     }
