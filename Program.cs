@@ -7,22 +7,14 @@ namespace HelloWorld
         static void Main(string[] args)
         {
 
-        List<int> myNumberList = new List<int>();
-        Console.WriteLine("Bis zu welcher Zahl soll aufsummiert werden?");
-        int untilNumber = Convert.ToInt32(Console.ReadLine());
+       Console.WriteLine("Nenne eine Zahl!");
+       int zahl1 = Convert.ToInt32(Console.ReadLine());
 
-        int i=0;
-        int ergebnis= 0;
-        int zahl=0;
+       Console.WriteLine("Nenne eine zweite Zahl!");
+       int zahl2 = Convert.ToInt32(Console.ReadLine());
 
-        while(i<untilNumber)
-        {
-            zahl = i+1;
-            ergebnis = ergebnis + zahl;
-            Console.WriteLine($"Added numer{i}, current result {ergebnis}");
-            i++;
-        }
-       
+       int ergebnis = zahl1 + zahl2;
+       Console.WriteLine($"Das ergebnis aus {zahl1} und {zahl2} ist {ergebnis}");
 
 
 
