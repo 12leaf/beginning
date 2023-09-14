@@ -7,10 +7,12 @@ namespace HelloWorld
         static void Main(string[] args)
         {
 
-        Console.WriteLine("Gib einen Text ein!");
+        Console.WriteLine("Gib einen Text mit einem Semikolon ein!");
         string text = Console.ReadLine();
+        string myText = text.Replace("U","g");
+        string myText2 = myText.Replace("G","g");
 
-        Console.WriteLine(text.PadLeft(20,'y'));
+        Console.WriteLine(myText2);
         }
     }
 }
