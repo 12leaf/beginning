@@ -10,7 +10,7 @@ namespace HelloWorld
        Console.WriteLine("Gib einen Text ein!");
        string text = Console.ReadLine();
 
-       Console.WriteLine(text.Count());
+       Console.WriteLine(text.Substring(3,5));
 
        
       
