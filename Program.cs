@@ -7,15 +7,17 @@ namespace HelloWorld
         static void Main(string[] args)
         {
 
-       Console.WriteLine("Gib einen Text ein!");
-       string text = Console.ReadLine();
+       Console.WriteLine("Gib eine Zahl ein!");
+       int zahl = Convert.ToInt32(Console.ReadLine());
+    
 
-       Console.WriteLine(text.Substring(3,5));
-
-       
-      
-
-       
+         for(int zaehlvariable=1;zaehlvariable<=zahl;zaehlvariable++)
+        {
+        if(zaehlvariable%2==0&&zaehlvariable!=0)
+        {
+        Console.WriteLine($"{zaehlervariable}");
+        }
+        }
 
 
 
