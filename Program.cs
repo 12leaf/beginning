@@ -7,11 +7,16 @@ namespace HelloWorld
         static void Main(string[] args)
         {
 
-       int zahl1 = 5;
-       int zahl2 = 6;
+       Console.WriteLine("Gib eine Zahl ein!");
+       int zahl = Convert.ToInt32(Console.ReadLine());
 
-       int ergebnis = zahl1 + zahl2;
-       Console.WriteLine($"Das ergebnis aus {zahl1} und {zahl2} ist {ergebnis}");
+        for(int zaehlvariable=0;zaehlvariable<=zahl;zaehlvariable++)
+        {
+            Console.WriteLine(zaehlvariable);
+        }
+      
+
+       
 
 
 
