@@ -7,13 +7,12 @@ namespace HelloWorld
         static void Main(string[] args)
         {
 
-       Console.WriteLine("Gib eine Zahl ein!");
-       int zahl = Convert.ToInt32(Console.ReadLine());
+       Console.WriteLine("Gib einen Text ein!");
+       string text = Console.ReadLine();
 
-        for(int zaehlvariable=0;zaehlvariable<=zahl;zaehlvariable++)
-        {
-            Console.WriteLine(zaehlvariable);
-        }
+       Console.WriteLine(text.ToUpper());
+
+       
       
 
        
