@@ -10,15 +10,14 @@ namespace HelloWorld
        Console.WriteLine("Gib eine Zahl ein!");
        int zahl = Convert.ToInt32(Console.ReadLine());
     
-
+        int ergebnis=1;
          for(int zaehlvariable=1;zaehlvariable<=zahl;zaehlvariable++)
         {
-        if(zaehlvariable%2==0&&zaehlvariable!=0)
-        {
-        Console.WriteLine($"{zaehlervariable}");
-        }
-        }
+        ergebnis = ergebnis * zaehlvariable;
+        Console.WriteLine($"{zaehlvariable}");
 
+        }
+    
 
 
 
